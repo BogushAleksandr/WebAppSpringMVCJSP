@@ -1,0 +1,123 @@
+body {
+    /*background-color: #61a867;*/
+    /*background: url("/resources/img/5390fon.jpg") repeat;*/
+    background: url("/resources/img/5390fon.jpg") repeat-y;
+    max-width: 1680px;
+    min-width: 320px;
+    max-height: inherit;
+
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+h1 {
+    font-family: "Monotype Corsiva";
+    font-size: 24pt;
+    /*font-weight: bolder;*/
+    font-weight: 900;
+    color: #feff3c;
+}
+
+.wrapper {
+    /*margin: 0 auto;*/
+    /*min-height: 100%;*/
+    /*height: auto;*/
+    /*height: 100%;*/
+}
+
+.header {
+    height: 300px;
+    background: url("/resources/img/1.jpg");
+    background-size: cover;
+}
+
+.upheader {
+    height: 150px;
+    background: url("/resources/img/5390fon.jpg");
+    width: auto;
+    background-size: cover;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+    padding: 0 0 100px;
+    /*margin-bottom: 70px;*/
+
+    width: 100%;
+}
+
+.razdel1 {
+    font-family: "Monotype Corsiva";
+    font-size: xx-large;
+    font-weight: 900;
+    color: #feff3c;
+    /*color: ;*/
+    position: absolute;
+    left: 35%;
+    top: 500px;
+}
+
+.orderf {
+    position: relative;
+    background-color: #feff3c;
+}
+
+/*.razdel2 {
+    font-family: "Monotype Corsiva";
+    font-size: xx-large;
+    font-weight: 900;
+    color: #feff3c;
+    position: absolute;
+    left: 38%;
+    top: 1600px;
+}*/
+
+/* Footer
+-----------------------------------------------------------------------------*/
+/*
+.footer {
+    background: tomato;
+    height: 200px;
+    width: 900px;
+}*/
+.footerend {
+    position: relative;
+    height: 20px;
+    width: auto;
+    top: 160px;
+}
+
+#adressmonast {
+    /*position: relative; left: 10px;*/
+    font-family: "Monotype Corsiva";
+    font-weight: 900;
+    color: #feff3c;
+    position: absolute;
+    left: 6%;
+    top: 900px;
+
+}
+
+#adr {
+    font-family: "Monotype Corsiva";
+    font-size: 14pt;
+    font-weight: 900;
+    color: #feff3c;
+    position: absolute;
+    left: 5%;
+}
+
+#firstregistration {
+    position: absolute;
+    top: 900px;
+    left: 36%;
+    color: #feff3c;
+}
+
+#googlemap {
+    position: absolute;
+    top: 900px;
+    left: 70%;
+}

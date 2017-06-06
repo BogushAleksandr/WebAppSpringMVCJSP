@@ -1,0 +1,15 @@
+.field {
+    clear: both;
+    text-align: right;
+}
+
+label {
+    float: left;
+}
+
+.regis {
+    float: left;
+    font-family: 'Monotype Corsiva';
+    font-size: 12pt;
+    font-weight: bolder;
+}

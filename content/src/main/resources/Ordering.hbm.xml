@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.prosfori.dao.Ordering" table="ordering">
+        <meta attribute="class-description">
+            This class contains the employee detail.
+        </meta>
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="comment" column="comment" type="string"/>
+        <property name="confirmed" column="confirmed" type="int"/>
+        <property name="delivered" column="delivered" type="int"/>
+        <property name="deliveryAddress" column="delivery_address" type="string"/>
+        <property name="deliveryDate" column="delivery_date" type="long"/>
+        <property name="order_date" column="order_date" type="long"/>
+        <property name="prosforaId" column="prosfora_id" type="int" />
+        <property name="quantity" column="quantity" type="int"/>
+        <property name="userId" column="user_id" type="int"/>
+    </class>
+</hibernate-mapping>

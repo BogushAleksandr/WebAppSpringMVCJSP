@@ -1,0 +1,127 @@
+.field {
+    clear: both;
+    text-align: right;
+}
+
+label {
+    float: left;
+}
+
+.main {
+    float: left;
+    font-family: 'Monotype Corsiva';
+    font-size: 12pt;
+    font-weight: bolder;
+    color: #feff3c;
+}
+
+.orderingmal {
+    position: absolute;
+    left: 10%;
+    top: 120px;
+
+}
+
+#order1 {
+    font-family: 'Monotype Corsiva';
+    font-size: 18pt;
+    font-weight: bolder;
+    color: #feff3c;
+    position: relative;
+    left: 50px;
+}
+/*#datapik{
+    width: 300px;
+}*/
+
+#img1 {
+    position: relative;
+    left: 35px;
+
+}
+
+#m1 {
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.orderingbigkrest {
+    position: absolute;
+    left: 48%;
+    top: 120px;
+}
+
+#order2 {
+    font-family: 'Monotype Corsiva';
+    font-size: 18pt;
+    font-weight: bolder;
+    color: #feff3c;
+    position: relative;
+    left: 50px;
+}
+
+#img2 {
+    position: relative;
+    left: 35px;
+}
+
+#m2 {
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.orderingsredkrest {
+    position: absolute;
+    left: 10%;
+    top: 620px;
+}
+
+#order3 {
+    font-family: 'Monotype Corsiva';
+    font-size: 18pt;
+    font-weight: bolder;
+    color: #feff3c;
+    position: relative;
+    left: 50px;
+}
+
+#img3 {
+    position: relative;
+    left: 35px;
+}
+
+#m3 {
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.orderingsredbogor {
+    position: absolute;
+    left: 48%;
+    top: 620px;
+}
+
+#order4 {
+    font-family: 'Monotype Corsiva';
+    font-size: 18pt;
+    font-weight: bolder;
+    color: #feff3c;
+    position: relative;
+    left: 25px;
+}
+
+#img4 {
+    position: relative;
+    left: 35px;
+}
+
+#m4 {
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.orderingbigkrest {
+    position: absolute;
+    left: 48%;
+    top: 120px;
+}
